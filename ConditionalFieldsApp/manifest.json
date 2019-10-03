@@ -1,0 +1,16 @@
+{
+    "author": {
+		"name" :"Zendesk Services",
+	    "email": "services@zendesk.com"
+     },
+    "parameters": [{
+       "name": "fieldMap",
+       "type": "multiline",
+       "required": true 
+       }],
+	"frameworkVersion": "0.5",
+	"location": ["ticket_sidebar", "new_ticket_sidebar"],
+    "defaultLocale": "en",
+    "private": true,
+    "singleInstall": true
+}
